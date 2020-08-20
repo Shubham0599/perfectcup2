@@ -18,7 +18,7 @@
     <link href="css/mycss.css" rel="stylesheet">
 
     <script src="js/jquery.js"></script>
-	
+
     <script type="text/javascript">
     $(document).ready(function () {
 
@@ -43,32 +43,32 @@
                         $("#add_err2").html('<div class="alert alert-danger"> \
                                              <strong>First Name</strong> must cannot exceed 50 characters. \ \
                                              </div>');
-                    
+
                     } else if (html == 'fname_short') {
                         $("#add_err2").html('<div class="alert alert-danger"> \
                                              <strong>First Name</strong> must exceed 2 characters. \ \
                                              </div>');
-                                             
+
                     } else if (html == 'email_long') {
                         $("#add_err2").html('<div class="alert alert-danger"> \
                                              <strong>Email</strong> must cannot exceed 50 characters. \ \
                                              </div>');
-                    
+
                     } else if (html == 'email_short') {
                         $("#add_err2").html('<div class="alert alert-danger"> \
                                              <strong>Email</strong> must exceed 2 characters. \ \
                                              </div>');
-                                             
+
                     } else if (html == 'eformat') {
                         $("#add_err2").html('<div class="alert alert-danger"> \
                                              <strong>Email</strong> format incorrect. \ \
                                              </div>');
-                                             
+
                     } else if (html == 'message_long') {
                         $("#add_err2").html('<div class="alert alert-danger"> \
                                              <strong>Message</strong> must cannot exceed 50 characters. \ \
                                              </div>');
-                    
+
                     } else if (html == 'message_short') {
                         $("#add_err2").html('<div class="alert alert-danger"> \
                                              <strong>Message</strong> must exceed 2 characters. \ \
@@ -114,8 +114,7 @@
                 <p>Email:<strong><a href="mailto:tenaciousanand01@gmail.com">abc@gmail.com</a></strong>
                 </p>
                 <p>Address:
-                        <strong>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</strong>
+                        <strong>Grand Taj | George Hills, <br>NO. 2345 | 123.456.7890</strong>
                 </p>
                 </div>
                 <div class="clearfix"></div>
@@ -127,7 +126,7 @@
                     <hr>
                     <h2 class="intro-text text-center">Contact <strong>Form</strong></h2>
                     <hr>
-                
+
                 <div id="add_err2"></div>
                 <form role="form">
                     <div class="row">
@@ -159,7 +158,7 @@
                 </div>
  <!-- footer -->
 <?php require_once 'footer.php'; ?>
-    
+
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
