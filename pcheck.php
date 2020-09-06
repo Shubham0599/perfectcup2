@@ -3,7 +3,8 @@ session_start();
 $email=$_POST['email'];
 $password=$_POST['password'];
 
-$con= new mysqli('localhost','root','','perfect_cup');
+//$con= new mysqli('localhost','root','','perfect_cup');
+include("dbcon.php");
 if($con==false){
 die('connection error');
 }

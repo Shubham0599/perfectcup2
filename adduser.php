@@ -1,6 +1,7 @@
 <?php
 session_start();
-$con=new mysqli('localhost','root','','perfect_cup');
+include("dbcon.php");
+//$con=new mysqli('localhost','root','','perfect_cup');
 
 // if($con->connect_error){
 //     die()
